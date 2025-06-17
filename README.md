@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Devashish Moghe</h1>
 <h3 align="center">Passionate Backend Devloper with Knowledge of AI and Ml algorithms</h3>
 
-<img align="right" width="400" src="https://github.com/Yug-Bothra/Yug-Bothra/blob/main/git.gif" alt="coding">
+<img align="right" width="400" src="https://github.com/DMZ22/DMZ22/blob/main/gitgif.gif" alt="coding">
 
 - 📫 How to reach me **devashishmoghe@gmail.com**
 

@@ -1,21 +1,31 @@
 <h1 align="center">Hi 👋, I'm Devashish Moghe</h1>
 <h3 align="center">Backend & data engineer — quantitative finance, AML / anomaly detection, and open-source contributor</h3>
 
-<img align="right" width="360" src="https://github.com/DMZ22/DMZ22/blob/main/gitgif.gif" alt="coding">
-
-- 🔭 I build in **financial crime detection, quantitative finance, and data engineering**
+- 🔭 I build in **financial-crime detection, quantitative finance, and data engineering**
 - 🌱 Active open-source contributor to finance, KYC/AML and scientific-Python libraries
 - 📫 Reach me at **devashishmoghe@gmail.com**
 
+> **Two clean views of this account:** [🗂️ my projects only](https://github.com/DMZ22?tab=repositories&type=source) · [🍴 my open-source forks](https://github.com/DMZ22?tab=repositories&type=fork)
+
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
 | Project | What it is | Live |
 |---|---|---|
-| **[FinSentry](https://github.com/DMZ22/financial-anomaly-detector)** | Transaction-monitoring-style **financial anomaly & AML detection** — ML ensemble + AML typology rules + money-flow graph analysis, with a Streamlit dashboard | [finsentry-aml.vercel.app](https://finsentry-aml.vercel.app) |
-| **[Vajra Quant](https://github.com/DMZ22/vajra-quant)** | Production-grade **algorithmic trading engine** for Indian index markets (NIFTY 50 & index ETFs) — 4 strategies, honest cost model, risk kill-switches, broker adapters | — |
-| **[Portfolio](https://github.com/DMZ22/portfolio)** | Personal portfolio site (Vite · React · TypeScript · Three.js) | [portfolio-dmz22s-projects.vercel.app](https://portfolio-dmz22s-projects.vercel.app) |
+| **[FinSentry](https://github.com/DMZ22/financial-anomaly-detector)** | Transaction-monitoring-style **financial anomaly & AML detection** — ML ensemble + AML typology rules + money-flow graph analysis + Streamlit dashboard | [demo](https://finsentry-aml.vercel.app) |
+| **[Vajra Quant](https://github.com/DMZ22/vajra-quant)** | Production-grade **algorithmic trading engine** for Indian index markets (NIFTY 50 & ETFs) — 4 strategies, honest cost model, risk kill-switches, broker adapters | — |
+| **[VisionQuant](https://github.com/DMZ22/visionquant)** | Multi-strategy **AI trading intelligence engine** — chart/CSV analysis with fused BUY/SELL/HOLD verdicts; Streamlit + CLI | — |
+| **[Stock Predictor Pro](https://github.com/DMZ22/stock-predictor-pro)** | Real-time stock dashboard — Next.js + Yahoo Finance + technicals + 14-day forecast | — |
+| **[Stock Trader Pro](https://github.com/DMZ22/Stock-Trader-Pro)** | AI trading dashboard — scalp signals, market scanner, paper trading, 230+ assets, 7 data providers | — |
+| **[Stock Price Dashboard](https://github.com/DMZ22/Stock-Price-Dashboard)** | Stock-price dashboard (Python) | — |
+| **[Smart Money Tracker](https://github.com/DMZ22/smart-money-tracker)** | Personal-finance / money tracker (Flutter) | — |
+| **[Customer Churn Analysis](https://github.com/DMZ22/customer-churn-analysis)** | End-to-end churn analysis — SQL + ML (LR/RF/XGBoost) + Streamlit + FastAPI + Docker | — |
+| **[Portfolio](https://github.com/DMZ22/portfolio)** | Personal portfolio site — Vite · React · TypeScript · Three.js | [site](https://portfolio-dmz22s-projects.vercel.app) |
+| **[Quest AI](https://github.com/DMZ22/quest-ai)** | Gamified, offline-first AI habit tracker | [demo](https://DMZ22.github.io/quest-ai/) |
+| **[MediScan AI](https://github.com/DMZ22/mediscan-ai)** | Clinical-AI platform — disease screenings, lab-report analysis, medicine interactions | [demo](https://frontend-lake-three-20.vercel.app) |
+| **[Phantom](https://github.com/DMZ22/phantom)** | Movie discovery & booking platform (Django) | — |
+| **[Movie Recommender System](https://github.com/DMZ22/Movie-Recommender-System-)** | Content-based movie recommender (Python) | — |
 
 ---
 
@@ -23,15 +33,39 @@
 
 **30 pull requests across 23 widely-used libraries — 5 merged.** &nbsp;([see all →](https://github.com/search?q=author%3ADMZ22+type%3Apr&type=pullrequests))
 
-**✅ Merged:** [exchange_calendars](https://github.com/gerrymanoim/exchange_calendars/pull/589) · [QuantLib ×2](https://github.com/lballabio/QuantLib/pull/2676) · [OpenSanctions yente](https://github.com/opensanctions/yente/pull/1219) · [STUMPY](https://github.com/stumpy-dev/stumpy/pull/1159)
+### ✅ Merged
+1. **[exchange_calendars #589](https://github.com/gerrymanoim/exchange_calendars/pull/589)** — authored the Indonesia Stock Exchange (XIDX) 2026 trading calendar
+2. **[QuantLib #2673](https://github.com/lballabio/QuantLib/pull/2673)** — added the Hong Kong 2026 holiday calendar
+3. **[QuantLib #2676](https://github.com/lballabio/QuantLib/pull/2676)** — backfilled the Indonesia calendar's missing decade (2015–2026)
+4. **[OpenSanctions yente #1219](https://github.com/opensanctions/yente/pull/1219)** — added HTTP conditional requests (ETag / 304) to the sanctions-screening API
+5. **[STUMPY #1159](https://github.com/stumpy-dev/stumpy/pull/1159)** — removed a redundant bound in the matrix-profile MPdist path
 
-Grouped by area:
-
-- **AML / KYC / sanctions** — OpenSanctions [yente](https://github.com/opensanctions/yente/pull/1219) (screening API) & [opensanctions](https://github.com/opensanctions/opensanctions/pull/5126) (data pipeline), [python-stdnum](https://github.com/arthurdejong/python-stdnum/pull/504) (IČO / VAT identifiers), [schwifty](https://github.com/mdomke/schwifty/pull/302) (IBAN/BIC), [OFAC sanctioned-address extractor](https://github.com/0xB10C/ofac-sanctioned-digital-currency-addresses/pull/25)
-- **Quantitative finance & market data** — [QuantLib](https://github.com/lballabio/QuantLib/pull/2676), [yfinance](https://github.com/ranaroussi/yfinance/pull/2915), [pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars/pull/472), [FinancePy](https://github.com/domokane/FinancePy/pull/247), [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib/pull/241), [qf-lib](https://github.com/quarkfin/qf-lib/pull/289)
-- **Entity resolution & data quality** — [Splink](https://github.com/moj-analytical-services/splink/pull/3206) (UK Ministry of Justice), [datacontract-cli](https://github.com/datacontract/datacontract-cli/pull/1404), [frictionless-py](https://github.com/frictionlessdata/frictionless-py/pull/1792), [dateparser](https://github.com/scrapinghub/dateparser/pull/1353)
-- **Anomaly detection & ML** — [PyOD](https://github.com/yzhao062/pyod/pull/704), [Orion](https://github.com/sintel-dev/Orion/pull/672) (MIT DAI-Lab), [scikit-lego](https://github.com/koaning/scikit-lego/pull/812)
-- **Regulatory reporting & crypto** — [py-xbrl](https://github.com/manusimidt/py-xbrl/pull/179) (SEC EDGAR / EU ESEF), [pycoin](https://github.com/richardkiss/pycoin/pull/440) (BIP32)
+### 🔧 Submitted / under review
+6. **[yfinance #2915](https://github.com/ranaroussi/yfinance/pull/2915)** — fixed a multi-day-interval TypeError and the numpy≥2.5 Timedelta deprecation
+7. **[pandas_market_calendars #472](https://github.com/rsheftel/pandas_market_calendars/pull/472)** — HKEX 2026 compensatory holiday
+8. **[pandas_market_calendars #473](https://github.com/rsheftel/pandas_market_calendars/pull/473)** — LSE 2022 spring-bank-holiday fix + two latent test bugs
+9. **[pandas_market_calendars #474](https://github.com/rsheftel/pandas_market_calendars/pull/474)** — BSE/NSE missing special holidays
+10. **[FinancePy #247](https://github.com/domokane/FinancePy/pull/247)** — joint multi-market business-day calendars
+11. **[python-stdnum #504](https://github.com/arthurdejong/python-stdnum/pull/504)** — Czech & Slovak IČO company-identifier validation (KYC)
+12. **[python-stdnum #505](https://github.com/arthurdejong/python-stdnum/pull/505)** — Oman VAT number (VATIN) validation (KYC)
+13. **[OpenSanctions #5126](https://github.com/opensanctions/opensanctions/pull/5126)** — fixed the Excel helper corrupting fractional sanctions-list values
+14. **[schwifty #302](https://github.com/mdomke/schwifty/pull/302)** — resolve bank data for BICs carrying a branch code (IBAN/BIC)
+15. **[OFAC address extractor #25](https://github.com/0xB10C/ofac-sanctioned-digital-currency-addresses/pull/25)** — added DOGE, a sanctioned asset that was being silently skipped
+16. **[Splink #3206](https://github.com/moj-analytical-services/splink/pull/3206)** — fixed the EM loop falsely reporting convergence (UK Ministry of Justice)
+17. **[Splink #3207](https://github.com/moj-analytical-services/splink/pull/3207)** — fixed a stale-cache crash after profile_columns
+18. **[PyOD #704](https://github.com/yzhao062/pyod/pull/704)** — fixed the DeepSVDD anomaly detector never training
+19. **[Orion #672](https://github.com/sintel-dev/Orion/pull/672)** — fixed the point-evaluation metrics crashing on empty anomaly windows (MIT DAI-Lab)
+20. **[scikit-lego #812](https://github.com/koaning/scikit-lego/pull/812)** — gave EstimatorTransformer its missing get_feature_names_out
+21. **[Riskfolio-Lib #241](https://github.com/dcajasn/Riskfolio-Lib/pull/241)** — fixed the plotting module for matplotlib 3.11
+22. **[datacontract-cli #1403](https://github.com/datacontract/datacontract-cli/pull/1403)** — derive the dbt contract id from the manifest
+23. **[datacontract-cli #1404](https://github.com/datacontract/datacontract-cli/pull/1404)** — enforce declared primary keys in data-contract tests
+24. **[frictionless-py #1792](https://github.com/frictionlessdata/frictionless-py/pull/1792)** — send CLI errors to stderr instead of stdout
+25. **[dateparser #1353](https://github.com/scrapinghub/dateparser/pull/1353)** — fixed French "sept" parsing as 7 instead of September (locale-aware dates)
+26. **[py-xbrl #179](https://github.com/manusimidt/py-xbrl/pull/179)** — parse dimensions from xbrli:scenario (EU ESEF filings)
+27. **[py-xbrl #180](https://github.com/manusimidt/py-xbrl/pull/180)** — stop one malformed fact aborting a whole regulatory filing
+28. **[pycoin #440](https://github.com/richardkiss/pycoin/pull/440)** — reject the invalid extended keys of BIP32 test vector 5 (crypto)
+29. **[xgi #747](https://github.com/xgi-org/xgi/pull/747)** — make hypergraph networks copyable/picklable on Python 3.14
+30. **[qf-lib #289](https://github.com/quarkfin/qf-lib/pull/289)** — fixed rotated chart axis labels landing on the wrong ticks
 
 ---
 
